@@ -1,19 +1,20 @@
-**Taj Hotel - Restaurant Management System**
 
-**Introduction:**
+# Taj Hotel - Restaurant Management System
+
+## Introduction:
 Welcome to the documentation for Taj Hotel's Restaurant Management System. This system is designed to streamline the ordering process, manage bills, apply discounts, and generate detailed multi-bills.
 
 ---
 
-**Classes:**
+## Classes:
 
 1. **TajHotel:**
    - **welcomeGuest(self, obj):**
-     - Greets the guest and initiates the menu display using the `getMenu` function of the Menu class.
+    - Greets the guest and initiates the menu display using the `getMenu` function of the Menu class.
 
 2. **Menu:**
    - **newOrder(self, total, obj, qty):**
-     - Facilitates placing new orders, calculates final bills, applies day-based discounts, and handles additional orders.
+      - Facilitates placing new orders, calculates final bills, applies day-based discounts, and handles additional orders.
    - **getMenu(self, obj):**
      - Presents menu options and manages user order input.
 
@@ -22,13 +23,13 @@ Welcome to the documentation for Taj Hotel's Restaurant Management System. This 
      - Outputs a detailed multi-bill, displaying dish names, prices, quantities, and total amounts.
 
 4. **MenuPrint:**
-   - **snacks(self):**
+   - snacks(self):
      - Displays snack menu options.
-   - **veg(self):**
+   - veg(self):
      - Displays vegetarian meal menu options.
-   - **nonVeg(self):**
+   - nonVeg(self):
      - Displays non-vegetarian meal menu options.
-   - **dessert(self):**
+   - dessert(self):
      - Displays dessert menu options.
 
 5. **DishName:**
@@ -51,7 +52,7 @@ Welcome to the documentation for Taj Hotel's Restaurant Management System. This 
 
 ---
 
-**Usage:**
+## Usage:
 1. Create an instance of the `ObjectFactory` class.
 2. Access different functionalities through the methods provided by respective classes.
 
